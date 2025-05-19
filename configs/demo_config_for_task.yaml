@@ -1,0 +1,41 @@
+task: |
+  ### Task
+  This team work MUST follow the standard scientific research. 
+  This research task aims to discover a nanohelix with `structure parameter` expression exhibiting optimal chirality, quantified by maximizing its `g-factor`. All members operate within a **Hypothesis-Validation** mechanism.
+  
+  1. The `g-factor` (a value, known ranges from 0.0 to 1.8) is a critical descriptor, representing the chirality of a nanohelix, with higher values indicating stronger chiral effect.
+  2. The nanohelix discovery process involves exploring diverse chemical space through strategic structural modifications.
+  3. For each proposed nanohelix structure, Experiment Agent should check its `g-factor`.
+  4. The core objective is to identify the nanohelix with the **highest** predicted `g-factor`, effectively pinpointing a candidate with potentially superior chirality.
+  
+  The outcome will be the identification of the nanohelix structure parameter with the best predicted `g-factor`. 
+    
+  ### Definitions
+  * **fiber-radius (nm):** Radius of the actual fiber/wire that forms the helix structure. The values for this parameter will range from 20 nm to 60 nm, with **10** evenly spaced values.
+  * **helix-radius (nm):** Radius of the helix (distance from the central axis to the center of the helical path). The values for this parameter will range from 20 nm to 90 nm, with **10** evenly spaced values.
+  * **n-turns (float):** Number of complete turns in the helix. The values for this parameter will range from 3 to 10, with **10** evenly spaced values.
+  * **pitch (nm):** Axial distance between adjacent turns. The values for this parameter will range from 60 nm to 200 nm, with **10** evenly spaced values.
+
+  [Important Warning] The Hypothesis scope MUSTN't out of the definitions below. There are many principles/mechanisms from correlation perspectives to be tested. When suggest experiments, any slight changes will be strongly rejected! 
+
+  ### Last record of the experiment
+  - Parameters: fiber_radius=20.0, helix_radius=20.0, n_turns=10.0 and pitch=60.0 
+  - Property: g-factor=0.5213
+  
+  ### The expected outcome
+  - Property: g-factor>1.8
+  - Parameters: ? (should be grounded in physicochemical principles)
+
+memory_buffer_size: 10
+objective_value: "g-factor"
+
+environment:
+    UTIL_LLM_CONFIG_BASE_URL:
+    UTIL_LLM_CONFIG_NAME:
+    UTIL_LLM_CONFIG_API_KEY:
+    UTIL_LLM_CONFIG_TEMPERATURE:
+    UTIL_LLM_CONFIG_MAX_TOKENS:
+    PIFLOW_EMBEDDING_MODEL_NAME:
+    PIFLOW_EMBEDDING_MODEL_URL:
+    PIFLOW_EMBEDDING_MODEL_API_KEY:
+    PIFLOW_EMBEDDING_MODEL_DIMENSIONS:

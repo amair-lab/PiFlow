@@ -1,0 +1,44 @@
+# Model configuration
+model:
+  node_vec_len: 120      # Length of node feature vector
+  node_fea_len: 128      # Node feature length after initial transform
+  hidden_fea_len: 128    # Hidden feature length
+  n_conv: 4              # Number of graph convolution layers
+  n_hidden: 3            # Number of hidden layers
+  n_outputs: 1           # Number of output values
+  p_dropout: 0.2         # Dropout probability
+
+# Training configuration
+training:
+  batch_size: 32         # Batch size
+  learning_rate: 0.001   # Learning rate
+  n_epochs: 200          # Number of epochs
+  train_ratio: 0.7       # Training data ratio
+  val_ratio: 0.1         # Validation data ratio
+  test_ratio: 0.2        # Test data ratio
+  early_stopping: 50     # Early stopping patience
+  save_dir: "./models"   # Directory to save models
+
+# Data configuration
+data:
+  max_atoms: 300         # Maximum number of atoms
+  dataset_path: "./data/ChEMBL35_processed_dataset_5w.csv"  # Dataset path
+  smiles_col: "canonical_smiles"    # Column name for SMILES strings
+  target_col: "pchembl_value_mean_BF"  # Column name for target values
+  delimiter: ";"         # CSV delimiter
+
+# Data loading configuration
+data_loading:
+  num_workers: 4         # Number of worker processes for data loading
+  pin_memory: true       # Whether to pin memory (faster GPU transfer)
+  use_cached_loader: true  # Whether to use CachedLoader for prefetching
+  prefetch_size: 2       # Number of batches to prefetch
+  precompute: true       # Whether to precompute all graphs
+  n_jobs: null           # Number of parallel jobs (null = use all CPUs-1)
+  use_cache: true        # Whether to cache processed data to disk
+
+# Other configuration
+misc:
+  seed: 42               # Random seed
+  use_gpu: true          # Whether to use GPU
+  plot_dir: "./plots"    # Directory to save plots
