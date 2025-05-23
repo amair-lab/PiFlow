@@ -2,7 +2,10 @@
 <br>
 <br>
 
-<img src="assets/introduction.png">
+<div align="center">
+  <img src="assets/introduction.png">
+</div>
+
 
 <div align="center">
   <h1>
@@ -55,6 +58,12 @@ PiFlow has demonstrated significant advancements in scientific discovery:
     * ⚡ Superconductors.
 * Markedly improves discovery efficiency, reflected by a **73.55% increase** in the Area Under the Curve (AUC) of property values versus exploration steps.
 * Enhances solution quality by an impressive **94.06%** compared to a vanilla agent system.
+
+
+<div align="center">
+  <img src="assets/results.png" alt="results">
+</div>
+
 
 PiFlow serves as a Plug-and-Play method, establishing a novel paradigm shift in highly efficient automated scientific discovery, paving the way for more robust and accelerated AI-driven research. Our PiFlow accommodates various scenarios (bio-molecules, nanomaterials and superconductors discovery) with experimental conditions (i.e., tools for agent), necessitating little to no prompt engineering for effective agent-level interaction.
 
