@@ -30,11 +30,16 @@ Westlake University
       <img src="https://img.shields.io/badge/License-CC BY NC 4.0-yellow.svg" alt="License: MIT">
     </a>
     &emsp;
-    <a href="https://opensource.org/licenses/MIT">
+    <a href="">
       <img src="https://img.shields.io/badge/AI4SD-Fully Adaptable & Generalizable-blue.svg" alt="License: MIT">
+    </a>
+    &emsp;
+    <a href="https://arxiv.org/abs/2505.15047">
+      <img src="https://img.shields.io/badge/arXiv-2505.15047-red.svg" alt="License: MIT">
     </a>
   </p>
 </div>
+
 
 ## 👋 Overview
 We introduce `PiFlow`, an information-theoretical framework. It uniquely treats automated scientific discovery as a structured uncertainty reduction problem, guided by foundational principles (e.g., scientific laws). This ensures a more systematic and rational exploration of scientific problems.
@@ -79,7 +84,15 @@ bash ./run_demo.sh
 
 ## 📚 Citation
 ```bibtex
-
+@misc{pu2025piflowprincipleawarescientificdiscovery,
+      title={PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration}, 
+      author={Yingming Pu and Tao Lin and Hongyu Chen},
+      year={2025},
+      eprint={2505.15047},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.15047}, 
+}
 ```
 
 
