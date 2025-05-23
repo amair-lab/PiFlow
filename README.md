@@ -87,19 +87,23 @@ bash ./run_demo.sh
 
 There are many possible areas that can use PiFlow to assist the discovery processes: 
 
-<div style="display: flex; justify-content: space-around;">
-  <div style="flex: 1; padding: 5px;">
-    <img src="assets/quantums.jpeg" alt="Description of Image 3" style="width: 100%;">
-    <p style="text-align: center;"><em>Quantum Materials</em></p>
-  </div>
-  <div style="flex: 1; padding: 5px;">
-    <img src="assets/battery.jpeg" alt="Description of Image 1" style="width: 100%;">
-    <p style="text-align: center;"><em>Battery</em></p>
-  </div>
-  <div style="flex: 1; padding: 5px;">
-    <img src="assets/protein.jpeg" alt="Description of Image 2" style="width: 100%;">
-    <p style="text-align: center;"><em>Proteins</em></p>
-  </div>
+<div align="center">
+<table style="margin-left: auto; margin-right: auto;">
+  <tr>
+    <td style="padding: 5px; text-align: center;">
+      <img src="assets/quantums.jpeg" alt="Description of Image 3" style="width: 200px;">
+      <div style="text-align: center">&emsp;&emsp;Quantum Materials</div>
+    </td>
+    <td style="padding: 5px; text-align: center;">
+      <img src="assets/battery.jpeg" alt="Description of Image 1" style="width: 200px;">
+      <p><em>&emsp;&emsp;&emsp;&emsp;Battery</em></p>
+    </td>
+    <td style="padding: 5px; text-align: center;">
+      <img src="assets/protein.jpeg" alt="Description of Image 2" style="width: 200px;">
+      <p><em>&emsp;&emsp;&emsp;&emsp;Proteins</em></p>
+    </td>
+  </tr>
+</table>
 </div>
 
 PiFlow offers full flexibility to adapt to your own scenarios, such as quantum science, MOF synthesis, and others. To adapt to your task, you could design tools based on the given examples at `src/tools/`, simply copy one file, e.g., `_nanohelix_tools.py` and create new one named be your scenario (e.g., `_mof_tools.py`). 
