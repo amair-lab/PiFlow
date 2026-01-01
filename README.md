@@ -33,6 +33,10 @@ Westlake University
   </p>
 </div>
 
+
+> **New to PiFlow?** Check out our [Colab Tutorial](tutorials/PiFlow_Tutorial.ipynb) to get started in minutes! 
+
+
 ## 👋 Overview
 
 We introduce `PiFlow` (Principle Flow), an information-theoretical framework that treats automated scientific discovery as a structured uncertainty reduction problem, guided by foundational scientific principles. This approach ensures a more systematic and rational exploration of scientific problems by learning and optimization. You can directly use PiFlow for **ANY** of your specific tasks to assist scientific discovery!
@@ -50,6 +54,7 @@ We introduce `PiFlow` (Principle Flow), an information-theoretical framework tha
 - Budget-limited iterative hypothesis-testing.
 - Saving the full running log of agents.
 - Colored output of different agents in terminal.
+- [x] **Interactive Tutorial**: Step-by-step guidance for scientists.
 - Case study:
   - Discovered nanohelix geo-structure with high chiral property (g-factor > 1.8).
 
