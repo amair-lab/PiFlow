@@ -34,8 +34,9 @@ Westlake University
 </div>
 
 
-> **New to PiFlow?** <img src="assets/colab-icon.png" width="24px" style="vertical-align: middle;"> Check out our [Colab Tutorial](tutorials/PiFlow_Tutorial.ipynb) to get started in minutes! 
+> **New to PiFlow?** Check out our <img src="assets/colab-icon.png" width="24px" style="vertical-align: middle;">  [Colab Tutorial](tutorials/PiFlow_Tutorial.ipynb) to get started in minutes! 
 
+<br/>
 
 ## 👋 Overview
 
