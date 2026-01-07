@@ -142,6 +142,12 @@ To adapt PiFlow to your task, you can design tools based on the provided example
 
 Remember to add the tool into the agent profile at model's config file. This is essential because the program will screen all tools defined at `tools/` and load them into the agent's context by filtering the tool name.  
 
+
+## 🤝 Discord
+
+If you have any problems or want to discuss something about PiFlow, welcome to join our [Discord](https://discord.gg/9wVqM5e7)!  
+
+
 ## 📚 Citation
 
 ```bibtex
